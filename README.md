@@ -1,27 +1,15 @@
 # Room Booking App
 
-## איך מריצים
+אפליקציית הזמנת חדרי ישיבות עבור אצטדיון מרים.
+מפותחת ב-React עם שמירת נתונים ב-Firebase Realtime Database.
 
-1. התקן את התלויות:
-```
+## איך מריצים מקומית
+
+```bash
 npm install
-```
-
-2. הפעל את האפליקציה:
-```
 npm start
 ```
 
-3. כנס לדפדפן לכתובת:
-```
-http://localhost:3000
-```
+## לפריסה אוטומטית ל-Vercel
 
----
-
-### לפריסה ב-Vercel
-- היכנס ל-[https://vercel.com](https://vercel.com)
-- התחבר עם חשבון GitHub/Google
-- בחר "Import Project" וגרור את התיקייה `room-booking-app`
-- Vercel יזהה אוטומטית שזו אפליקציית React ויפרס
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project)
